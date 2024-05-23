@@ -25,6 +25,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h3>{{$movie->title}}</h3>
+                            <p>{{$movie->nationality}}</p>
+                            <p>{{$movie->date}}</p>
+                            <p>{{$movie->vote}}</p>
                         </div>
                     </div>
                 </div>
